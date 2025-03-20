@@ -1,5 +1,6 @@
 pandas
-numpy
+numpy==1.23.5
 scikit-learn
 category_encoders
 matplotlib
+catboost
