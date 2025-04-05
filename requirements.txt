@@ -4,3 +4,5 @@ scikit-learn
 category_encoders
 matplotlib
 catboost
+seaborn
+pyswarm
