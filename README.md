@@ -134,7 +134,7 @@ Performance was primarily evaluated using the ROC AUC score on the validation se
 
 **CatBoost Insights:**
 *   CatBoost significantly outperformed SVM across most configurations, especially when combined with GA.
-*   Classical DR methods (PCA, ICA, SVD) performed poorly with CatBoost based on Kaggle scores, indicating potential issues with how these transformations interacted with the CatBoost model or the test set distribution.
+*   Classical DR methods (PCA, ICA, SVD) performed poorly with CatBoost based on Kaggle scores, indicating potential issues with how these transformations interacted with the CatBoost model, possibly due to bad interpretability caused by transformations or overall complexity of the final model.
 *   GA feature selection worked very well with CatBoost, yielding the best baseline performance.
 *   ACO tuning on GA features provided the highest validation ROC AUC for CatBoost.
 *   PSO tuning on GA features resulted in a lower validation AUC compared to the baseline GA+CatBoost.
